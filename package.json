@@ -7,7 +7,7 @@
         "packages/*"
     ],
     "scripts": {
-        "publish-eslint": "cd ./packages/eslint-config && npm publish --access public",
+        "publish-biome": "cd ./packages/biome-config && npm publish --access public",
         "publish-tsconfig": "cd ./packages/ts-config && npm publish --access public"
     }
 }
