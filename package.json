@@ -1,0 +1,13 @@
+{
+    "name": "root",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": "brownhounds",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "publish-eslint": "cd ./packages/eslint-config && npm publish --access public",
+        "publish-tsconfig": "cd ./packages/ts-config && npm publish --access public"
+    }
+}
